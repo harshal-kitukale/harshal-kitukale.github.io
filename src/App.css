@@ -1,3 +1,38 @@
+/* 
+@import url('https://fonts.googleapis.com/css?family=Corben:700');
+@import url('https://fonts.googleapis.com/css2?family=Delicious+Handrawn&display=swap');
+
+.fontClass{
+  font-family: 'Delicious Handrawn', cursive;
+}
+
+
+
+.eye {
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: rgb(48, 48, 48);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  
+  top: 20%;
+  left: 10%;
+  transform: translate(-50%, -50%);
+}
+
+.iris {
+  position: absolute;
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  background-color: black;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+
 .App {
   text-align: center;
 }
@@ -28,11 +63,75 @@
   color: #61dafb;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+.box{
+  animation: box 1s ease-in-out 0s 1 forwards;
+}
+
+@keyframes box {
+  0% {
+    transform: scale(0);
   }
-  to {
-    transform: rotate(360deg);
+  100% {
+    transform: scale(1);
   }
 }
+
+
+.slideDown{
+  animation: slideDown 1s ease-in-out 0s 1 forwards;
+}
+
+@keyframes slideDown {
+  0% {
+    transform: translateY(-100vh);
+  }
+  100% {
+    transform:translateY(0vh);
+  }
+}
+
+.slideLeft{
+  animation: slideLeft 1s ease-in-out 0s 1 forwards;
+}
+
+@keyframes slideLeft {
+  0% {
+    opacity: 0;
+    transform: translateX(-10%);
+  }
+  100% {
+    opacity: 1;
+    transform:translateX(0);
+  }
+}
+
+
+.slideRight{
+  animation: slideRight 1s ease-in-out 0s 1 forwards;
+}
+
+@keyframes slideRight {
+  0% {
+    opacity: 0;
+    transform: translateX(100px);
+  }
+  100% {
+    opacity: 1;
+    transform:translateX(0);
+  }
+}
+
+.slideTop{
+  animation: slideTop 1s ease-in-out 0s 1 forwards;
+}
+
+@keyframes slideTop {
+  0% {
+    opacity: 0;
+    transform: translateY(100px);
+  }
+  100% {
+    opacity: 1;
+    transform:translateX(0);
+  }
+} */
