@@ -76,6 +76,7 @@ const About = () => {
             bg={useColorModeValue("white", "gray.800")}
             borderRadius="20px"
             border="1px"
+            borderColor={useColorModeValue("gray.400", "gray.700")}
             p="20px"
             textAlign={"left"}
             boxShadow={
@@ -149,8 +150,8 @@ const About = () => {
                       : "rgba(230, 250, 255, 0.56) 0px 22px 70px 4px;"
                   }
                 >
+                  <Text>550+ DSA Problems</Text>
                   <Text>4+ Major Projects</Text>
-                  <Text>30+ Mini Projects</Text>
                 </Box>
 
                 <Box
@@ -168,7 +169,7 @@ const About = () => {
                   <Text>Soft Skills</Text>
                 </Box>
               </Flex>
-              <Heading marginTop="1">
+              <Heading fontSize={"28px"} marginTop="1">
                 <Link textDecoration="none" _hover={{ textDecoration: "none" }}>
                   Summary
                 </Link>

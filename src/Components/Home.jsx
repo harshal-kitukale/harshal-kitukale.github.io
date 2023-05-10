@@ -13,6 +13,7 @@ import {
   StackDivider,
   Box,
   Button,
+  HStack,
 } from "@chakra-ui/react";
 import { BiDownload } from "react-icons/bi";
 import Fade from "react-reveal/Fade";
@@ -36,13 +37,13 @@ const Feature = ({ text, icon, iconBg }) => {
 };
 function handleResume() {
   window.location.href = `https://drive.google.com/uc?export=download&id=10NIPb97EkeE0iWMdsIcpiy8M0TzbNWti`;
-// }https://drive.google.com/uc?export=download&id=1h1lan92QxkqGlsHdt9_KQ5UWXqLiyaer
+  // }https://drive.google.com/uc?export=download&id=1h1lan92QxkqGlsHdt9_KQ5UWXqLiyaer
 }
 export default function Home() {
   // const { colorMode, toggleColorMode } = useColorMode(true);
   return (
     <>
-      <Box id="home" mt={{ base: "60px", sm: "80px" }} bg="white">
+      <Box id="home" mt={{ base: "50px", sm: "60px" }} bg="white">
         <Box h="30px"></Box>
         <Container
           maxW={{ base: "100%", sm: "80%" }}
@@ -67,7 +68,7 @@ export default function Home() {
                   fontSize={"20px"}
                   alignSelf={"flex-start"}
                   rounded={"md"}
-                  mt={{ base: "20px", lg: '"0px"' }}
+                  mt={{ base: "20px", lg: "0px" }}
                 >
                   Hi, I am
                 </Text>
@@ -76,15 +77,27 @@ export default function Home() {
                   bgClip="text"
                   bgGradient="linear(to-l, #81e6d9, #28628b)"
                 >
-                  <Heading fontSize={"42px"} id="user-detail-name">
-                    Harshal
-                  </Heading>
+                  <HStack>
+                    <Heading fontSize={"42px"} id="user-detail-name">
+                      Harshal
+                    </Heading>
+                    <Image
+                      width={"10%"}
+                      src="https://em-content.zobj.net/source/microsoft-teams/337/waving-hand_medium-light-skin-tone_1f44b-1f3fc_1f3fc.png"
+                      alt="hii"
+                    ></Image>
+                  </HStack>
                 </Box>
                 <Text fontSize={"29px"}>Full Stack Web Developer</Text>
-                <Text pt="20px" fontSize={"21px"} lineHeight={"30px"}>
-                  Analytical and detail-oriented Full Stack Developer in MERN
+                <Text pt="20px" fontSize={"20px"} lineHeight={"30px"}>
+                  {/* Analytical and detail-oriented Full Stack Developer in MERN
                   stack. Aims to create world-class web applications while
-                  facilitating organizations in achieving ambitious goals.
+                  facilitating organizations in achieving ambitious goals. */}
+                  Dedicated and passionate full-stack web developer with
+                  hands-on experience building websites with MERN stack. Curious
+                  to learn about emerging web technologies and looking for an
+                  opportunity to contribute significantly to an organization
+                  through dedicated effort.
                 </Text>
                 <Box></Box>
                 <Stack pt="30px">
@@ -95,13 +108,13 @@ export default function Home() {
                     alignItems={"center"}
                     divider={
                       <StackDivider
-                        // borderColor={useColorModeValue("gray.100", "gray.700")}
+                      // borderColor={useColorModeValue("gray.100", "gray.700")}
                       />
                     }
                   >
                     <Button
                       id="resume-button-2"
-                      onClick={handleResume}
+                      onClick={()=> window.location.href = `https://drive.google.com/uc?export=download&id=10NIPb97EkeE0iWMdsIcpiy8M0TzbNWti`}
                       colorScheme="teal"
                       size="md"
                     >
@@ -115,7 +128,7 @@ export default function Home() {
                         </Flex>
                       </a>
                     </Button>
-                    <Flex justifyContent={"space-around"} w="25%">
+                    <Flex w="25%">
                       <Link
                         m="5px"
                         id="contact-github"
@@ -123,7 +136,7 @@ export default function Home() {
                         target="_blank"
                       >
                         <svg
-                          fill= "black"
+                          fill="black"
                           xmlns="http://www.w3.org/2000/svg"
                           width="30"
                           height="30"
@@ -182,7 +195,10 @@ export default function Home() {
                     </svg>
                     <Text id="contact-phone">+91- 8459-988-673</Text>
                   </Flex>
-                  <Link href="https://mail.google.com/mail/?view=cm&fs=1&tf=1&to=harshalkitukale005@gmail.com" target="_blank">
+                  <Link
+                    href="https://mail.google.com/mail/?view=cm&fs=1&tf=1&to=harshalkitukale005@gmail.com"
+                    target="_blank"
+                  >
                     <Flex cursor="pointer">
                       <svg
                         fill="black"
@@ -195,7 +211,7 @@ export default function Home() {
                         <path d="M24 21h-24v-18h24v18zm-23-16.477v15.477h22v-15.477l-10.999 10-11.001-10zm21.089-.523h-20.176l10.088 9.171 10.088-9.171z" />
                       </svg>
                       <Text id="contact-email" ml="10px">
-                      harshalkitukale005@gmail.com
+                        harshalkitukale005@gmail.com
                       </Text>
                     </Flex>
                   </Link>
@@ -211,12 +227,13 @@ export default function Home() {
             >
               <Fade right>
                 <Image
-                  w={{ base: "80%", lg: "500px" }}
+                  w={{ base: "80%", lg: "350px" }}
                   mt="-10px"
                   rounded={"md"}
                   alt={"feature image"}
-                  src={"giphy.gif"}
+                  src={"harshal.png"}
                   objectFit={"cover"}
+                  boxShadow="rgba(0, 0, 0, 0.35) 0px 5px 15px"
                 />
               </Fade>
             </Flex>

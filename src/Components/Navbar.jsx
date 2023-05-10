@@ -70,7 +70,7 @@ export default function Navbar() {
 
   return (
     <>
-    {/* there is a navbar */}
+      {/* there is a navbar */}
       <Box
         id="nav-menu"
         as="header"
@@ -101,13 +101,13 @@ export default function Navbar() {
           </Flex>
 
           <Flex
-            w={{ base: "20px", lg: "90%", xl: "70%" }}
+            w={{ base: "20px", lg: "90%", xl: "60%" }}
             display={{ base: "none", lg: "block" }}
             alignItems={"center"}
             justifyContent="end"
           >
             <Flex
-              w="100%"
+              w="95%"
               justifyContent={"space-between"}
               direction={"row"}
               fontSize="18px"
@@ -118,8 +118,9 @@ export default function Navbar() {
                   handleClickScroll("home");
                 }}
                 colorScheme="gray"
-                variant="ghost"
+                variant="link"
                 color="white"
+                _focus={{ color: 'teal.200',textDecoration: 'underline'}}
               >
                 <a className="nav-link home">
                   <Flex alignItems={"center"}>
@@ -144,8 +145,10 @@ export default function Navbar() {
                 onClick={() => {
                   handleClickScroll("about");
                 }}
-                variant="ghost"
+                variant="link"
                 color="white"
+                // _hover={{ color: 'teal.200'}}
+                _focus={{ color: 'teal.200',textDecoration: 'underline'}}
               >
                 <a className="nav-link about">
                   <Flex alignItems={"center"}>
@@ -163,15 +166,17 @@ export default function Navbar() {
                   </Flex>
                 </a>
               </Button>
-
               <Button
                 onClick={() => {
                   handleClickScroll("skills");
                 }}
                 colorScheme="gray"
-                variant="ghost"
+                variant='link'
                 color="white"
+                // _hover={{ color: 'teal.200'}}
+                _focus={{ color: 'teal.200',textDecoration: 'underline'}}
               >
+                
                 <a className="nav-link skills">
                   <Flex alignItems={"center"}>
                     <svg
@@ -194,8 +199,9 @@ export default function Navbar() {
                   handleClickScroll("projects");
                 }}
                 colorScheme="gray"
-                variant="ghost"
+                variant="link"
                 color="white"
+                _focus={{ color: 'teal.200',textDecoration: 'underline'}}
               >
                 <a className="nav-link projects">
                   <Flex alignItems={"center"}>
@@ -219,8 +225,9 @@ export default function Navbar() {
                   handleClickScroll("contact");
                 }}
                 colorScheme="gray"
-                variant="ghost"
+                variant="link"
                 color="white"
+                _focus={{ color: 'teal.200',textDecoration: 'underline'}}
               >
                 <a className="nav-link contact">
                   <Flex alignItems={"center"}>
@@ -244,7 +251,8 @@ export default function Navbar() {
                 onClick={handleResume}
                 id="resume-button-1"
                 colorScheme="teal"
-                size="md" >
+                size="md"
+              >
                 <a
                   id="resume-link-1"
                   href="https://drive.google.com/file/d/10NIPb97EkeE0iWMdsIcpiy8M0TzbNWti/view?usp=sharing"
@@ -262,8 +270,7 @@ export default function Navbar() {
             </Flex>
           </Flex>
 
-         
-   <Box display={{ base: "block", lg: "none" }}>
+          <Box display={{ base: "block", lg: "none" }}>
             <Flex
               w="100%"
               justifyContent={"space-between"}

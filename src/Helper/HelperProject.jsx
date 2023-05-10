@@ -23,10 +23,12 @@ function HelperProject({ image, title, techStack, desc, github, deploy }) {
         maxW="sm"
         m="auto"
         w="100%"
+        h="500px"
         borderWidth="1px"
         borderRadius="lg"
         overflow="hidden"
         mt="10px"
+        boxShadow={"rgba(0, 0, 0, 0.25) 0px 5px 15px" }
       >
         <Box borderRadius="lg" overflow="hidden">
           <Link textDecoration="none" _hover={{ textDecoration: "none" }}>
@@ -36,6 +38,7 @@ function HelperProject({ image, title, techStack, desc, github, deploy }) {
               alt="some text"
               objectFit="contain"
               width="100%"
+              h="200px"
               transition="0.3s ease-in-out"
               _hover={{
                 transform: "scale(1.05)",
@@ -45,7 +48,7 @@ function HelperProject({ image, title, techStack, desc, github, deploy }) {
         </Box>
 
         <Box p="6">
-          <Box display="flex" flexWrap={"wrap"} alignItems="baseline">
+          <Box display="flex" flexWrap={"wrap"} alignItems="baseline" mt={"4px"}>
             {techStack?.map((el, ind) => {
               return (
                 <Code
@@ -83,9 +86,9 @@ function HelperProject({ image, title, techStack, desc, github, deploy }) {
           <Text
             mt="4"
             fontWeight="semibold"
-            as="h4"
+            as="h5"
             lineHeight="tight"
-            noOfLines={2}
+            noOfLines={3}
             textAlign="left"
             className="project-description"
           >

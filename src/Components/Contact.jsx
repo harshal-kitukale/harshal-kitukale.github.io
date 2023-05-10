@@ -124,14 +124,14 @@ export default function Contact() {
                   mt="30px"
                 >
                   <Link
-                    href="https://github.com/ParbhatKataria1"
+                    href="https://github.com/harshal-kitukale"
                     target="_blank"
                   >
                     <Flex m="10px" alignItems={"center"}>
                       <Link
                         m="5px"
                         id="contact-github"
-                        href="https://github.com/ParbhatKataria1"
+                        href="https://github.com/harshal-kitukale"
                         target="_blank"
                       >
                         <svg
@@ -158,12 +158,13 @@ export default function Contact() {
                   border={"1px solid gray"}
                   mt="30px"
                 >
-                  <Link href="https://www.linkedin.com/in/parbhat004/">
+                  <Link href="https://www.linkedin.com/in/harshal-kitukale-258273185"
+                  target="_blank">
                     <Flex m="10px" alignItems={"center"}>
                       <Link
                         m="5px"
                         id="contact-linkedin"
-                        href="https://www.linkedin.com/in/parbhat004/"
+                        href="https://www.linkedin.com/in/harshal-kitukale-258273185"
                         target="_blank"
                       >
                         <svg
@@ -191,7 +192,8 @@ export default function Contact() {
                   border={"1px solid gray"}
                   mt="30px"
                 >
-                  <Link href="mailto:parbhatkataria628@gmail.com">
+                  <Link href="https://mail.google.com/mail/?view=cm&fs=1&tf=1&to=harshalkitukale005@gmail.com"
+                  target="_blank">
                     <Flex
                       justifyContent={"space-between"}
                       m="10px"
@@ -243,7 +245,7 @@ export default function Contact() {
                       </Flex>
                     </Link>
                     <Text ml="10px" fontSize={"20px"}>
-                      +91 6284-333-505
+                      +91 8459-988-673
                     </Text>
                   </Flex>
                 </Button>

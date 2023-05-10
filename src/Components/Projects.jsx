@@ -32,30 +32,22 @@ const Projects = () => {
 
 let data = [
   {
-    image: "unit6Project.png",
-    desc: "Style Fashion is an e-commerce platform to buy mens and womens clothing products.",
-    title: "Style Fashion",
-    techStack: ["React", "Chakra UI", "0Auth", "Express", "MongoDB"],
-    github: "https://github.com/ParbhatKataria1/assorted-desk-4504",
-    deploy: "https://ephemeral-platypus-7df5f7.netlify.app",
+    image: "https://camo.githubusercontent.com/aa7203108f52f0ddc4666c61c14594584e80872c5be63107c2dcfcf5e7a8de54/68747470733a2f2f692e6962622e636f2f687964686b68432f53637265656e73686f742d323032332d30342d30332d3132303534362e706e67",
+    desc: "The Ghost Fashion is an e-commerce platform to buy clothes,beauty & Wellness,fashion,furniture and jewellery,etc. and it is clone of The Souled Store.",
+    title: "Ghost Fashion",
+    techStack: ["React", "Chakra UI", "FireBase", "Versel", "NPM"],
+    github: "https://github.com/UmaSahni/truculent-creature-9857",
+    deploy: "https://ghost-shop.vercel.app/",
+    // ["React", "Chakra UI", "0Auth", "Express", "MongoDB"],
   },
   {
     image:
-      "https://serving.photos.photobox.com/78056824e1d2dcb063cf8a5ea1341a6907cb7b0db09d946e3a34b0372449333665356f22.jpg",
-    title: "Sugar Cosmetics Clone",
-    desc: "It is a beauty product-based website which is used to order cosmetic products",
-    techStack: ["HTML", "CSS", "JavaScript", "JQuery"],
-    github: "https://github.com/ParbhatKataria1/money-zephyr-6413",
-    deploy: "https://gleeful-lebkuchen-052b83.netlify.app",
-  },
-  {
-    image:
-      "https://serving.photos.photobox.com/4315878941189d29f37cdb91e3aae0780f8c84e24e9a2df8c15c13d1be664bbffb5fec01.jpg",
-    desc: "It is a hotel booking website for vacations",
-    title: "Tripvillas Clone",
-    techStack: ["HTML", "CSS", "JavaScript", "JQuery"],
-    github: "https://github.com/ParbhatKataria1/longing-fairies-6305",
-    deploy: "https://shiny-klepon-a49c07.netlify.app",
+      "https://user-images.githubusercontent.com/60300103/213976351-d8755e21-a41b-434e-9def-f0c1b9976d2e.png",
+    title: "Apna Mall",
+    desc: "Apna Mall is an e-commerce platform to buy clothes,groceries,furniture and jewellery.",
+    techStack: ["Next.JS","React", "Chakra UI", "FireBase", "Versel", "NPM","Material UI"],
+    github: "https://github.com/bhav1kmaru/apnaMall",
+    deploy: "https://apnamall.vercel.app/",
   },
   {
     image: "unit5project.png",
@@ -66,11 +58,30 @@ let data = [
       "Chakra UI",
       "Google Authentication",
       "Redux",
-      "JSON - Server",
+      "JSON-Server",
     ],
     github: "https://github.com/ParbhatKataria1/responsible-act-7116",
     deploy: "https://unit-5-frontend-deployement.netlify.app",
   },
+  {
+    image:
+      "https://user-images.githubusercontent.com/108014776/214233013-0d1c8346-be2c-4435-bfc1-4580947a95ae.png",
+    desc: " Website provides basic advertizing about sevices, various services. A community platform to get to know about various workout plans.",
+    title: "GymWolf Clone",
+    techStack: ["HTML", "CSS", "JavaScript", "Netlify"],
+    github: "https://github.com/LokeshVyavhare/Gym-workout-tracker",
+    deploy: "https://envious-cactus-6437.netlify.app/",
+  },
+  {
+    image:
+      "tripoto.png",
+    desc: " Tripoto is social travel platform to share and discover travel experiences, stories, community, tourism guides, hotels, holidays, getaways, attractions and many more.",
+    title: "Tripoto Clone",
+    techStack: ["HTML", "CSS", "JavaScript", "Netlify"],
+    github: "https://github.com/jkumari25/Tripoto.com",
+    deploy: "https://tripoto-clone-one.vercel.app/",
+  },
+  
 ];
 
 export default Projects;

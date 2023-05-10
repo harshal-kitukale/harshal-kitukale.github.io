@@ -16,12 +16,12 @@ import {
   Link,
   Text,
   useDisclosure,
-  useColorMode,
+  // useColorMode,
 } from "@chakra-ui/react";
 
 export default function DrawerExample({ handleClickScroll, handleResume }) {
   const { isOpen, onOpen, onClose } = useDisclosure();
-  const { colorMode, toggleColorMode } = useColorMode();
+  // const { colorMode, toggleColorMode } = useColorMode();
   const btnRef = useRef();
 
   return (
@@ -40,13 +40,13 @@ export default function DrawerExample({ handleClickScroll, handleResume }) {
           <DrawerCloseButton />
           <DrawerHeader>
             <Flex w="70%" justifyContent={"flex-start"}>
-              <Button onClick={toggleColorMode}>
+              {/* <Button onClick={toggleColorMode}>
                 {colorMode === "light" ? <MoonIcon /> : <SunIcon />}
-              </Button>
+              </Button> */}
 
               <Link
                 id="resume-link-1"
-                href="Parbhat_Resume.pdf"
+                href="Harshal_Kitukale_Resume.pdf"
                 download
                 onClick={handleResume}
                 target="_blank"
@@ -54,13 +54,13 @@ export default function DrawerExample({ handleClickScroll, handleResume }) {
                 <Button
                   id="resume-button-1"
                   class="nav-link resume"
-                  colorScheme="blue"
+                  colorScheme="teal"
                   size="md"
                   ml="20px"
                   variant="solid"
                 >
                   <Flex ml="10px" alignItems={"center"}>
-                    <Button>
+                    <Button colorScheme="teal">
                       <Text mr={"4px"}>Resume</Text> <BiDownload />
                     </Button>
                   </Flex>
@@ -92,7 +92,7 @@ export default function DrawerExample({ handleClickScroll, handleResume }) {
                 role="group"
                 cursor="pointer"
                 _hover={{
-                  bg: "cyan.400",
+                  bg: "teal.300",
                   color: "white",
                 }}
               >
@@ -114,7 +114,7 @@ export default function DrawerExample({ handleClickScroll, handleResume }) {
                 role="group"
                 cursor="pointer"
                 _hover={{
-                  bg: "cyan.400",
+                  bg: "teal.300",
                   color: "white",
                 }}
               >
@@ -136,7 +136,7 @@ export default function DrawerExample({ handleClickScroll, handleResume }) {
                 role="group"
                 cursor="pointer"
                 _hover={{
-                  bg: "cyan.400",
+                  bg: "teal.300",
                   color: "white",
                 }}
               >
@@ -159,7 +159,7 @@ export default function DrawerExample({ handleClickScroll, handleResume }) {
                 role="group"
                 cursor="pointer"
                 _hover={{
-                  bg: "cyan.400",
+                  bg: "teal.300",
                   color: "white",
                 }}
               >
@@ -181,7 +181,7 @@ export default function DrawerExample({ handleClickScroll, handleResume }) {
                 role="group"
                 cursor="pointer"
                 _hover={{
-                  bg: "cyan.400",
+                  bg: "teal.300",
                   color: "white",
                 }}
               >

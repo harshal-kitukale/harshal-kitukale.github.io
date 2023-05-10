@@ -30,7 +30,7 @@ const Form1 = () => {
   return (
     <Box>
       <form
-        action="https://getform.io/f/4f739fae-4e60-4f77-a69d-657650edefc8"
+        action="https://getform.io/f/56699b2a-8eb0-4932-a2d8-d3f212969ed7"
         method="POST"
       >
         <Heading w="100%" textAlign={"center"} fontWeight="normal" mb="2%">
@@ -57,7 +57,7 @@ const Form1 = () => {
               </FormLabel>
               <Input
                 id="last-name"
-                placeholder="First name"
+                placeholder="Last name"
                 name="last-name"
                 type="text"
               />
