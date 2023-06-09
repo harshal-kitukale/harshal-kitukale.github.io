@@ -2,25 +2,11 @@ import { React, ReactNode, useEffect, useRef } from "react";
 import {
   Box,
   Flex,
-  Avatar,
-  Link,
   Button,
-  Menu,
-  MenuButton,
-  MenuList,
-  MenuItem,
-  Input,
-  MenuDivider,
-  useDisclosure,
-  useColorModeValue,
-  Stack,
-  useColorMode,
-  Center,
   Text,
   Image,
 } from "@chakra-ui/react";
 
-import { MoonIcon, SunIcon, HamburgerIcon } from "@chakra-ui/icons";
 import { BiDownload } from "react-icons/bi";
 import DrawerExample from "./SideBar";
 // import { handleResume } from "./Home";
@@ -29,7 +15,8 @@ import "aos/dist/aos.css";
 import Zoom from "react-reveal/Zoom";
 
 function handleResume() {
-  window.location.href = `https://drive.google.com/uc?export=download&id=10NIPb97EkeE0iWMdsIcpiy8M0TzbNWti`;
+  // window.location.href = `https://drive.google.com/uc?export=download&id=10NIPb97EkeE0iWMdsIcpiy8M0TzbNWti`;
+  // download = "Harshal_Kitukale_Resume.pdf";
 }
 // https://drive.google.com/file/d/10NIPb97EkeE0iWMdsIcpiy8M0TzbNWti/view?usp=sharing
 // const NavLink = ({ children }) => (
@@ -53,7 +40,7 @@ export default function Navbar() {
   }, []);
 
   // const { colorMode, toggleColorMode } = useColorMode();
-  const { isOpen, onOpen, onClose } = useDisclosure();
+  // const { isOpen, onOpen, onClose } = useDisclosure();
   // useEffect(() => {
   //   toggleColorMode("dark");
   // }, []);
@@ -248,15 +235,16 @@ export default function Navbar() {
 
               <Button
                 className="nav-link resume"
-                onClick={handleResume}
+                onClick={()=> window.open(`https://drive.google.com/file/d/10NIPb97EkeE0iWMdsIcpiy8M0TzbNWti/view`)}
                 id="resume-button-1"
                 colorScheme="teal"
                 size="md"
               >
                 <a
                   id="resume-link-1"
-                  href="https://drive.google.com/file/d/10NIPb97EkeE0iWMdsIcpiy8M0TzbNWti/view?usp=sharing"
+                  href="Harshal_Kitukale_Resume.pdf"
                   target="_blank"
+                  download = "Harshal_Kitukale_Resume.pdf"
                 >
                   <Flex alignItems={"center"} mr={"4px"} ml="10px">
                     <Text mr="8px">Resume</Text> <BiDownload />

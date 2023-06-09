@@ -1,6 +1,6 @@
 import { motion, useAnimation } from "framer-motion";
 import { useInView } from "react-intersection-observer";
-
+// import resume from "../../src/";
 import {
   Container,
   SimpleGrid,
@@ -114,14 +114,15 @@ export default function Home() {
                   >
                     <Button
                       id="resume-button-2"
-                      onClick={()=> window.location.href = `https://drive.google.com/uc?export=download&id=10NIPb97EkeE0iWMdsIcpiy8M0TzbNWti`}
+                      onClick={()=> window.open(`https://drive.google.com/file/d/10NIPb97EkeE0iWMdsIcpiy8M0TzbNWti/view`)}
                       colorScheme="teal"
                       size="md"
                     >
                       <a
                         id="resume-link-2"
-                        href="https://drive.google.com/file/d/10NIPb97EkeE0iWMdsIcpiy8M0TzbNWti/view?usp=sharing"
+                        href="Harshal_Kitukale_Resume.pdf"
                         target="_blank"
+                        download = "Harshal_Kitukale_Resume.pdf"
                       >
                         <Flex alignItems={"center"} mr={"4px"} ml="10px">
                           <Text mr="8px">Resume</Text> <BiDownload />
