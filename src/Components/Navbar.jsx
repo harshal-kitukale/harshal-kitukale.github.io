@@ -235,7 +235,7 @@ export default function Navbar() {
 
               <Button
                 className="nav-link resume"
-                onClick={()=> window.open(`https://drive.google.com/file/d/10NIPb97EkeE0iWMdsIcpiy8M0TzbNWti/view`)}
+                onClick={()=> window.open(`https://drive.google.com/file/d/198EjWESF3qN2NQt-hm9qeWZbvP4D5IHE/view?usp=sharing`)}
                 id="resume-button-1"
                 colorScheme="teal"
                 size="md"
