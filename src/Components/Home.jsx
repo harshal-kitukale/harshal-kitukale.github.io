@@ -114,7 +114,7 @@ export default function Home() {
                   >
                     <Button
                       id="resume-button-2"
-                      onClick={()=> window.open(`https://drive.google.com/file/d/10NIPb97EkeE0iWMdsIcpiy8M0TzbNWti/view`)}
+                      onClick={()=> window.open(`https://drive.google.com/file/d/198EjWESF3qN2NQt-hm9qeWZbvP4D5IHE/view`)}
                       colorScheme="teal"
                       size="md"
                     >
