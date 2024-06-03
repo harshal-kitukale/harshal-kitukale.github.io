@@ -38,7 +38,7 @@ export default function Skills() {
           {/* here */}
 
           <Fade bottom>
-            <Text fontSize={"23px"}>Teach Stack</Text>
+            <Text fontSize={"23px"}>Tech Stack</Text>
             <Grid
               templateColumns={{
                 base: "repeat(2, 1fr)",
@@ -179,7 +179,7 @@ let arr1 = [
   },
   {
     image:
-      "https://camo.githubusercontent.com/9255dba4a9ad5a906afd63a77b2d3498cbd7fa527008a417968683f5e8e545b2/68747470733a2f2f75706c6f61642e77696b696d656469612e6f72672f77696b6970656469612f636f6d6d6f6e732f7468756d622f342f34632f547970657363726970745f6c6f676f5f323032302e7376672f3132303070782d547970657363726970745f6c6f676f5f323032302e7376672e706e67",
+      "https://img.icons8.com/?size=100&id=uJM6fQYqDaZK&format=png&color=000000",
     title: "TypeScript",
   },
   {
@@ -208,12 +208,12 @@ let arr2 = [
   },
   {
     image:
-      "https://camo.githubusercontent.com/dc9e7e657b4cd5ba7d819d1a9ce61434bd0ddbb94287d7476b186bd783b62279/68747470733a2f2f63646e2e6a7364656c6976722e6e65742f67682f64657669636f6e732f64657669636f6e2f69636f6e732f6769742f6769742d6f726967696e616c2e737667",
+      "https://img.icons8.com/?size=100&id=20906&format=png&color=000000",
     title: "Git",
   },
   {
     image:
-      "https://camo.githubusercontent.com/ed93c2b000a76ceaad1503e7eb9356591b885227e82a36a005b9d3498b303ba5/68747470733a2f2f7777772e766563746f726c6f676f2e7a6f6e652f6c6f676f732f6669676d612f6669676d612d69636f6e2e737667",
+      "https://img.icons8.com/?size=100&id=W0YEwBDDfTeu&format=png&color=000000",
     title: "Figma",
   },
   {
@@ -222,6 +222,10 @@ let arr2 = [
   },
   {
     image: "https://img.icons8.com/color/1x/chakra-ui.png",
+    title: "Chakra UI",
+  },
+  {
+    image: "https://img.icons8.com/?size=100&id=CIAZz2CYc6Kc&format=png&color=000000",
     title: "Chakra UI",
   },
 ];

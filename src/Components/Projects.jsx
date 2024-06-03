@@ -32,7 +32,7 @@ const Projects = () => {
 
 let data = [
   {
-    image: "https://camo.githubusercontent.com/aa7203108f52f0ddc4666c61c14594584e80872c5be63107c2dcfcf5e7a8de54/68747470733a2f2f692e6962622e636f2f687964686b68432f53637265656e73686f742d323032332d30342d30332d3132303534362e706e67",
+    image: "https://camo.githubusercontent.com/00a6f6e83d69a349707f14f5f0cc9d54b98c21ad82314150d2bdc89b2bdc7f19/68747470733a2f2f692e6962622e636f2f687964686b68432f53637265656e73686f742d323032332d30342d30332d3132303534362e706e67",
     desc: "The Ghost Fashion is an e-commerce platform to buy clothes,beauty & Wellness,fashion,furniture and jewellery,etc. and it is clone of The Souled Store.",
     title: "Ghost Fashion",
     techStack: ["React", "Chakra UI", "FireBase", "Versel", "NPM"],

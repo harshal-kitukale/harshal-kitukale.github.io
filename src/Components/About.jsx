@@ -20,7 +20,6 @@ import {
 } from "@chakra-ui/react";
 
 import Fade from "react-reveal/Fade";
-
 const BlogTags = (props) => {
   return (
     <HStack spacing={2} marginTop={props.marginTop}>

@@ -36,8 +36,8 @@ const Feature = ({ text, icon, iconBg }) => {
   );
 };
 function handleResume() {
-  window.location.href = `https://drive.google.com/uc?export=download&id=10NIPb97EkeE0iWMdsIcpiy8M0TzbNWti`;
-  // }https://drive.google.com/uc?export=download&id=1h1lan92QxkqGlsHdt9_KQ5UWXqLiyaer
+  window.location.href = `https://drive.google.com/uc?export=download&id=1KLxIssxzl7nxMnnAF9B-Muaf-URZUU85`;
+  // https://drive.google.com/file/d/1KLxIssxzl7nxMnnAF9B-Muaf-URZUU85/view?usp=drive_link
 }
 export default function Home() {
   // const { colorMode, toggleColorMode } = useColorMode(true);
@@ -114,15 +114,15 @@ export default function Home() {
                   >
                     <Button
                       id="resume-button-2"
-                      onClick={()=> window.open(`https://drive.google.com/file/d/10NIPb97EkeE0iWMdsIcpiy8M0TzbNWti/view`)}
+                      onClick={()=> window.open(`https://drive.google.com/file/d/1KLxIssxzl7nxMnnAF9B-Muaf-URZUU85/view?usp=drive_link`)}
                       colorScheme="teal"
                       size="md"
                     >
                       <a
                         id="resume-link-2"
-                        href="Harshal_Kitukale_Resume.pdf"
+                        href="/HarshalKitukale-FullStackWebDeveloper.pdf"
                         target="_blank"
-                        download = "Harshal_Kitukale_Resume.pdf"
+                        download = "HarshalKitukale-FullStackWebDeveloper.pdf"
                       >
                         <Flex alignItems={"center"} mr={"4px"} ml="10px">
                           <Text mr="8px">Resume</Text> <BiDownload />

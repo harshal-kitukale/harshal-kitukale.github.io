@@ -1,4 +1,4 @@
-import { React, ReactNode, useEffect, useRef } from "react";
+import { React, useEffect, } from "react";
 import {
   Box,
   Flex,
@@ -9,30 +9,10 @@ import {
 
 import { BiDownload } from "react-icons/bi";
 import DrawerExample from "./SideBar";
-// import { handleResume } from "./Home";
 import Aos from "aos";
 import "aos/dist/aos.css";
-import Zoom from "react-reveal/Zoom";
 
-function handleResume() {
-  // window.location.href = `https://drive.google.com/uc?export=download&id=10NIPb97EkeE0iWMdsIcpiy8M0TzbNWti`;
-  // download = "Harshal_Kitukale_Resume.pdf";
-}
-// https://drive.google.com/file/d/10NIPb97EkeE0iWMdsIcpiy8M0TzbNWti/view?usp=sharing
-// const NavLink = ({ children }) => (
-//   <Link
-//     px={2}
-//     py={1}
-//     rounded={"md"}
-//     _hover={{
-//       textDecoration: "none",
-//       bg: useColorModeValue("gray.200", "gray.700"),
-//     }}
-//     href={"#"}
-//   >
-//     {children}
-//   </Link>
-// );
+
 
 export default function Navbar() {
   useEffect(() => {
@@ -235,16 +215,16 @@ export default function Navbar() {
 
               <Button
                 className="nav-link resume"
-                onClick={()=> window.open(`https://drive.google.com/file/d/10NIPb97EkeE0iWMdsIcpiy8M0TzbNWti/view`)}
+                onClick={()=> window.open(`https://drive.google.com/file/d/1KLxIssxzl7nxMnnAF9B-Muaf-URZUU85/view?usp=drive_link`)}
                 id="resume-button-1"
                 colorScheme="teal"
                 size="md"
               >
                 <a
                   id="resume-link-1"
-                  href="Harshal_Kitukale_Resume.pdf"
+                  href="/HarshalKitukale-FullStackWebDeveloper.pdf"
                   target="_blank"
-                  download = "Harshal_Kitukale_Resume.pdf"
+                  download = "HarshalKitukale-FullStackWebDeveloper.pdf"
                 >
                   <Flex alignItems={"center"} mr={"4px"} ml="10px">
                     <Text mr="8px">Resume</Text> <BiDownload />
@@ -268,7 +248,7 @@ export default function Navbar() {
             >
               <DrawerExample
                 handleClickScroll={handleClickScroll}
-                handleResume={handleResume}
+                // handleResume={handleResume}
               />
             </Flex>
           </Box>
