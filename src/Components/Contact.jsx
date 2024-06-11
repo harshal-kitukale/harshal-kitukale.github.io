@@ -299,9 +299,10 @@ export default function Contact() {
         fontSize={"20px"}
         bg="#1a202c"
         w="100%"
+        color='white'
         justifyContent={"center"}
       >
-        Thanks for Visiting 😊
+        Thanks for Visiting. Made with ❤ by Harshal 😊
       </Flex>
     </Box>
   );
